@@ -1,6 +1,8 @@
 import { Persistency } from './persistency';
 
 describe('Persistency', () => {
+  afterEach(() => jest.clearAllMocks());
+
   it('should return undefined', () => {
     //System under test
     const sut = new Persistency();
