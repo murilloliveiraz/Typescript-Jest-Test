@@ -2,7 +2,7 @@ import {
   Discount,
   FiftyPercentDiscount,
   NoDiscount,
-  TenPercentDiscount
+  TenPercentDiscount,
 } from './discount';
 
 const createSut = (className: new () => Discount): Discount => {
